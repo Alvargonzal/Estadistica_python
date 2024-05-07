@@ -197,7 +197,11 @@ datos= [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 
 
 
 """
-Configuracion de la ventana para tomar datos y mostrar las estadisticas
+
+s
+Configuracion de la ventana GUI para tomar datos y mostrar las estadisticas
+
+
 """
 
 
