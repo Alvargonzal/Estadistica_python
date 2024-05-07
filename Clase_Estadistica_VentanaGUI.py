@@ -168,13 +168,9 @@ class Estadistica:
         for index in range (0, len(lista_valores_unicos)):
             print(f" ({lista_valores_unicos[index]}, {round(lista_valores_repes[index] / self.conteo(elementos)*100, 1)} )", end=" ")
             Label(ventana, text=f"({lista_valores_unicos[index]}, {round(lista_valores_repes[index] / self.conteo(elementos)*100, 1)} )").pack()
-            
+             
+        #   Metodo de impresión en la terminal
         
-        
-     
-        
-        
-
     def descripcion(self,elementos):
          print (f" \n\n  Datos Estadisticos de la Muestra entregada (datos)\n")
          print (f"suma: {self.suma(elementos)}")
@@ -191,7 +187,7 @@ class Estadistica:
 
 
 
-reg = Estadistica() # instaciamos reg como de la clase Estadistica
+reg = Estadistica() # instanciamos reg como de la clase Estadistica
       # datos de muestra 
 datos= [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26,]   
 
