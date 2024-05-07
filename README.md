@@ -1,3 +1,5 @@
+![](/media/estadisticas.jpg)
+
 # Estadistica con Python
 
 Se crea una programa de Estadistica mediante una clase.Estadistica
